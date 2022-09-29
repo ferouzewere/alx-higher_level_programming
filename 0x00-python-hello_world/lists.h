@@ -2,6 +2,8 @@
 #define LISTS_H
 
 #include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
 
 /**
  * struct listint_s - singly linked list
@@ -9,7 +11,7 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- * for ALX project
+ *
  */
 typedef struct listint_s
 {
